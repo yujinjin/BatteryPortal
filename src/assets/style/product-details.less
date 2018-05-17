@@ -1,0 +1,159 @@
+.navbar-title {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.product-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    .preview {
+        .jqzoom {
+            width: 390px;
+            height: 350px;
+            margin: 10px auto;
+            border: 2px solid #f9f9f9;
+            
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        
+        .spec-scroll {
+            position: relative;
+            z-index: 2;
+            padding: 0;
+            margin: 10px 0px;
+            height: 75px;
+            display: flex;
+            justify-content: space-between;
+            
+            .control {
+                cursor: pointer;
+                height: 45px;
+                width: 17px;
+                height: 75px;
+                line-height: 75px;
+            }
+            
+            .sku-wrap {
+                flex: 1;
+                overflow: hidden;
+                position: relative;
+                margin: 0px 10px;
+                
+                > ul {
+                    position: absolute;
+                    width: 100%;
+                    
+                    > li {
+                        float: left;
+                        width: 80px;
+                        height: 71px;
+                        text-align: left;
+                        
+                        > a {
+                            cursor: pointer;
+                            display: inline-block;
+                            width: 70px;
+                            height: 71px;
+                            border: 1px solid #CCCCCC;
+                            padding: 1px;
+                            
+                            &.active {
+                               padding: 0;
+                               border-width: 2px;
+                               border-color: #18DD43; 
+                            }
+                            
+                            > img {
+                                width: 70px;
+                                height: 71px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .describe {
+        flex: 1;
+        padding-left: 30px;
+        padding-top: 10px;
+        font-size: 15px;
+        
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            padding-bottom: 5px;
+            display: block;
+        }
+        
+        .sub-title {
+            color: #ff4200;
+            display: block;
+            line-height: 25px;
+            margin-top: 10px;
+            border-bottom: 1px dotted #ccc;
+            padding-bottom: 10px;
+        }
+        
+        .brand-info, .price-info, .spec-info {
+            margin: 5px 0;
+            line-height: 50px;
+            
+            span {
+                font-weight: bold;
+            }
+        }
+        
+        .price-info span {
+            color: #FF4A00;
+            font-size: 30px;
+        }
+        
+        .button-panel {
+            margin-top: 10px;
+            
+            a.button-block {
+                display: block;
+                width: 120px;
+                height: 50px;
+                line-height: 50px;
+                color: #FFFFFF;
+                background-color: #ff5200;
+                text-align: center;
+                font-size: 17px;
+                padding: 0px 10px;
+                border-radius: 3px;
+                
+                i {
+                    margin-right: 10px;
+                    line-height: 50px;
+                }
+            }
+        }
+    }
+}
+
+.introduce-title {
+    font-size: 16px;
+    margin: 20px 0;
+    overflow: hidden;
+    margin-bottom: 40px;
+    line-height: 45px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    letter-spacing: 1px;
+}
+
+.info-html {
+    
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}

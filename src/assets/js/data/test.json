@@ -1,0 +1,165 @@
+{
+	"result": {
+		"cartRegionBlocks": [{
+			"type": 0,
+			"promotionActivities": [{
+				"rangeDescribe": "",
+				"title": "满300包邮",
+				"typeName": "促销",
+				"type": 0,
+				"promotionActivityId": "",
+				"linkUrl": ""
+			}],
+			"cartActivityBlocks": [{
+					"promotionActivity": {
+						"rangeDescribe": "Natrol商品",
+						"title": "满399减15",
+						"typeName": "满减",
+						"type": 1,
+						"promotionActivityId": "",
+						"linkUrl": ""
+					},
+					"title": "Natrol商品已购满399元，已减15元",
+					"activityDiscountAmount": "15",
+					"thresholdAmount": "399",
+					"thresholdLackAmount": "0",
+					"isSatisfied": "true",
+					"cartItems": [{
+						"goodsId": "6393ba61-479d-4e62-a4a9-ec1312106e66",
+						"isShelves": "true",
+						"goodsName": "高级褪黑素睡眠缓释片（60片）",
+						"imageUrl": "/upload/image/original/201706/211603178121.jpg?x-oss-process=style/750",
+						"goodsSpecs": [{
+							"speclName": "数量",
+							"specValue": "60片"
+						}],
+						"snapshotPrice": "38",
+						"priceInYuan": "38",
+						"suggestPriceInYuan": "142",
+						"qty": "2",
+						"inventoryQty": "22",
+						"taxation": "10",
+						"goodsBuyQtyRange": {
+							"minimum": "1",
+							"maximum": "22"
+						},
+						"isSelected": "true",
+						"activityGiftList": [],
+						"isCalculateMemberPrice": "true",
+						"promotionLabels": [{
+							"title": "满50减10",
+							"typeName": "满减",
+							"type": 1
+						}]
+					}]
+				},
+				{
+					"promotionActivity": {
+						"rangeDescribe": "孕妇类商品",
+						"title": "满399打8折",
+						"typeName": "折扣",
+						"type": 2,
+						"promotionActivityId": "",
+						"linkUrl": ""
+					},
+					"title": "孕妇类商品已购满399元，已打8折",
+					"activityDiscountAmount": "15",
+					"thresholdAmount": "399",
+					"thresholdLackAmount": "0",
+					"isSatisfied": "true",
+					"cartItems": [{
+						"goodsId": "6393ba61-479d-4e62-a4a9-ec1312106e66",
+						"isShelves": "true",
+						"goodsName": "高级褪黑素睡眠缓释片（60片）",
+						"imageUrl": "/upload/image/original/201706/211603178121.jpg?x-oss-process=style/750",
+						"goodsSpecs": [{
+							"speclName": "数量",
+							"specValue": "60片"
+						}],
+						"snapshotPrice": "38",
+						"priceInYuan": "38",
+						"suggestPriceInYuan": "142",
+						"qty": "2",
+						"inventoryQty": "22",
+						"taxation": "10",
+						"goodsBuyQtyRange": {
+							"minimum": "1",
+							"maximum": "22"
+						},
+						"isSelected": "true",
+						"activityGiftList": [],
+						"isCalculateMemberPrice": "true",
+						"promotionLabels": [{
+							"title": "满50减10",
+							"typeName": "满减",
+							"type": 1
+						}]
+					}]
+				}
+			],
+			"cartGoodsList": [{
+				"goodsId": "6393ba61-479d-4e62-a4a9-ec1312106e66",
+				"isShelves": "true",
+				"goodsName": "高级褪黑素睡眠缓释片（60片）",
+				"imageUrl": "/upload/image/original/201706/211603178121.jpg?x-oss-process=style/750",
+				"goodsSpecs": [{
+					"speclName": "数量",
+					"specValue": "60片"
+				}],
+				"snapshotPrice": "38",
+				"priceInYuan": "38",
+				"suggestPriceInYuan": "142",
+				"qty": "2",
+				"inventoryQty": "22",
+				"taxation": "10",
+				"goodsBuyQtyRange": {
+					"minimum": "1",
+					"maximum": "22"
+				},
+				"isSelected": "true",
+				"activityGiftList": [],
+				"isCalculateMemberPrice": "true",
+				"promotionLabels": [{
+					"title": "满50减10",
+					"typeName": "满减",
+					"type": 1
+				}]
+			}]
+		}],
+		"invalidItems": [{
+			"goodsId": "6393ba61-479d-4e62-a4a9-ec1312106e66",
+			"isShelves": "true",
+			"goodsName": "高级褪黑素睡眠缓释片（60片）",
+			"imageUrl": "/upload/image/original/201706/211603178121.jpg?x-oss-process=style/750",
+			"goodsSpecs": [{
+				"speclName": "数量",
+				"specValue": "60片"
+			}],
+			"snapshotPrice": "38",
+			"priceInYuan": "38",
+			"suggestPriceInYuan": "142",
+			"qty": "2",
+			"inventoryQty": "22",
+			"taxation": "10",
+			"goodsBuyQtyRange": {
+				"minimum": "1",
+				"maximum": "22"
+			},
+			"isSelected": "true",
+			"activityGiftList": [],
+			"isCalculateMemberPrice": "true",
+			"promotionLabels": [{
+				"title": "满50减10",
+				"typeName": "满减",
+				"type": 1
+			}]
+		}],
+		"totalAmt": 85,
+		"selectedItemQty": 82
+	},
+	"targetUrl": "",
+	"success": "true",
+	"error": {},
+	"unAuthorizedRequest": "false",
+	"__abp": true
+}

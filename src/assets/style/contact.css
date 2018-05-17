@@ -1,0 +1,170 @@
+.map-banner {
+	background: url(../imgs/map.jpg) no-repeat center;
+    height: 400px;
+}
+
+.container > .contact {
+	background: url(../imgs/contact-bg.jpg) no-repeat center;
+    height: 450px;
+}
+
+.contact .title {
+	text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.contact .contact-row {
+	width: 100%;
+}
+
+.contact .contact-row ul {
+	width: 100%;
+}
+
+.contact .contact-row ul li {
+	float: left;
+    width: 23%;
+    background: #ffffff;
+    margin: 0px 1%;
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+    font-size: 16px;
+    color: #333;
+    line-height: 32px;
+}
+
+.contact .contact-row ul li .box {
+	padding: 40px 0px;
+	width: 100%;
+    min-height: 180px;
+    
+}
+
+.contact .contact-row ul li .box i {
+	display: inline-block;
+}
+
+.contact .contact-row ul li .box h2 {
+	font-size: 18px;
+    color: #333;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact .contact-row ul li .box .text {
+	margin: 0 20px;
+}
+
+.contact .contact-row ul li .address-box {
+	background-color: rgba(222,103,100, 0.2);
+}
+
+.contact .contact-row ul li .address-box i {
+	width: 36px;
+    height: 46px;
+    background: url(../imgs/sprite2.png) no-repeat 0 0;
+}
+
+.contact .contact-row ul li .phone-box {
+	background-color: rgba(88,190,200, 0.2);
+}
+
+.contact .contact-row ul li .phone-box i {
+	width: 42px;
+    height: 46px;
+    background: url(../imgs/sprite2.png) no-repeat -38px 0;
+}
+
+.contact .contact-row ul li .email-box {
+	background-color: rgba(154,192,71, 0.2);
+}
+
+.contact .contact-row ul li .email-box i {
+	width: 40px;
+    height: 46px;
+    background: url(../imgs/sprite2.png) no-repeat -83px 0;
+}
+
+.contact .contact-row ul li .service-box {
+	background-color: rgba(49,160,225, 0.2);
+}
+
+.contact .contact-row ul li .service-box i {
+	width: 40px;
+    height: 46px;
+    background: url(../imgs/sprite2.png) no-repeat -125px 0;
+}
+
+.arrive {
+	background: #f7f7f7;
+    padding-bottom: 40px;
+    margin-bottom: -40px;
+}
+
+.arrive .title {
+	text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.arrive .arrive-row {
+	width: 100%;
+}
+
+.arrive .arrive-row dl {
+	float: left;
+    width: 29.33%;
+    margin: 0px 2%;
+    position: relative;
+    font-size: 18px;
+}
+
+.arrive .arrive-row dl dt {
+	margin-bottom: 20px;
+}
+
+.arrive .arrive-row dl dt i {
+	display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.arrive .arrive-row dl dd {
+	padding-left: 52px;
+	font-size: 15px;
+    color: #333;
+    line-height: 32px;
+}
+
+.arrive .arrive-row dl.bus dt {
+	color: #31a0e1;
+}
+
+.arrive .arrive-row dl.bus dt i {
+	width: 32px;
+    height: 32px;
+	background: url(../imgs/sprite2.png) 0 -90px;
+}
+
+.arrive .arrive-row dl.taxi dt {
+	color: #de6764;
+}
+
+.arrive .arrive-row dl.taxi dt i {
+	width: 32px;
+    height: 34px;
+	background: url(../imgs/sprite2.png) -34px -90px;
+}
+
+.arrive .arrive-row dl.metro dt {
+	color: #9ac047;
+}
+
+.arrive .arrive-row dl.metro dt i {
+	width: 34px;
+    height: 34px;
+	background: url(../imgs/sprite2.png) -66px -90px;
+}

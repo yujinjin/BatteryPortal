@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="关键词" />
+	    <meta name="description" content="描述">
+		<title>商品详情</title>
+	</head>
+	<body>
+	    <!-- 资源加载防止白屏 -->
+	    <div class="loading-container">
+	        <div class="loader"></div>
+	    </div>
+	    <div class="container">
+	    	<%= require('../includes/header.tpl') %>
+	    	<div class="product-details wrap">
+	    		<div class="navbar-title">
+		    		<a>商品详情</a>
+		    	</div>
+		    	<div class="product-info">
+		    		<div class="preview">
+		    			<div class="jqzoom">
+		    				<img src="http://img01.jk724.com/productheadimg/BM0002/001.jpg" jqimg="http://img01.jk724.com/productheadimg/BM0002/001.jpg" />
+		    			</div>
+		    			<div class="spec-scroll">
+							<div class="control prev">
+	                            <img src="<%=require('../assets/imgs/left-sort.png')%>" />
+	                        </div>
+							<div class="sku-wrap">
+								<ul>
+									<li>
+	                                    <a class="active"><img src="http://img01.jk724.com/productheadimg/BM0002/001.jpg" /> </a>
+	                                </li>
+	                                <li>
+	                                    <a><img src="http://img01.jk724.com/productheadimg/BM0002/002.jpg" /></a>
+	                                </li>
+	                                <li>
+	                                    <a><img src="http://img01.jk724.com/productheadimg/BM0002/003.jpg" /></a>
+	                                </li>
+								</ul>
+							</div>
+							<div class="control next">
+								<img src="<%=require('../assets/imgs/right-sort.png')%>" />
+							</div>
+						</div>
+		    		</div>
+		    		<div class="describe">
+		    			<span class="title">真是一个非常流弊的产品</span>
+		    			<span class="sub-title">真是一个非常非常非常流弊的产品</span>
+		    			<div class="brand-info">品  牌：<span>兴源</span></div>
+		    			<div class="price-info">价  格：<span>￥44.30</span></div>
+		    			<div class="spec-info">规  格：<span>5个/盒</span></div>
+		    			<div class="button-panel">
+		    				<a href="javascript:void(0);" class="button-block"><i class="icon-phone"></i>联系我</a>
+		    			</div>
+		    		</div>
+		    	</div>
+		    	<div class="introduce-title">商品介绍</div>
+		    	<div class="info-html">
+		    		<p><img src="http://img01.jk724.com/productinfoimg/BM0002/001.jpg" data-bd-imgshare-binded="1" style="opacity: 1;"></p>
+		    	</div>
+	    	</div>
+	    	<%= require('../includes/footer.tpl') %>
+	    </div>
+	</body>
+</html>

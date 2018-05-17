@@ -1,0 +1,198 @@
+html, body, dl, dd, img, form, div, ul, ol, li, h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-size: 12px;
+	font-family: '微软雅黑', Arial, 'Microsoft YaHei';
+	height: 100%;
+	width: 100%;
+}
+
+ul, ol, li {
+	list-style-type: none;
+}
+
+img {
+	border: 0;
+	vertical-align: middle;
+}
+
+select, input {
+	vertical-align: middle;
+	outline: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+iframe {
+	border: none;
+}
+
+.section {
+	overflow: hidden;
+    position: relative!important;
+}
+
+@media (min-width: 768px) {
+  	.wrap {
+    	width: 768px;
+  	}
+}
+@media (min-width: 992px) {
+  	.wrap {
+    	width: 970px;
+  	}
+}
+@media (min-width: 1200px) {
+  	.wrap {
+    	width: 1170px;
+  	}
+}
+
+.wrap {
+	border: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.wrap:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+a:link {
+	color: #666666;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #666666;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0093ff;
+	text-decoration: none;
+}
+
+a:active {
+	color: #0093ff;
+	text-decoration: none;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.container {
+	max-width: 1500px;
+	min-width: 750px;
+	width: 100%;
+	min-height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container > header + div {
+	margin-top: 100px;
+}
+
+
+.clear-both {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/*#region Loading*/
+
+@-webkit-keyframes typing {
+	0% {
+		background-color: #ffffff;
+		box-shadow: 12px 0px 0px 0px rgba(255, 255, 255, 0.2), 24px 0px 0px 0px rgba(255, 255, 255, 0.2);
+	}
+	25% {
+		background-color: rgba(255, 255, 255, 0.4);
+		box-shadow: 12px 0px 0px 0px #ffffff, 24px 0px 0px 0px rgba(255, 255, 255, 0.2);
+	}
+	75% {
+		background-color: rgba(255, 255, 255, 0.4);
+		box-shadow: 12px 0px 0px 0px rgba(255, 255, 255, 0.2), 24px 0px 0px 0px #ffffff;
+	}
+}
+
+@-moz-keyframes typing {
+	0% {
+		background-color: #ffffff;
+		box-shadow: 12px 0px 0px 0px rgba(255, 255, 255, 0.2), 24px 0px 0px 0px rgba(255, 255, 255, 0.2);
+	}
+	25% {
+		background-color: rgba(255, 255, 255, 0.4);
+		box-shadow: 12px 0px 0px 0px #ffffff, 24px 0px 0px 0px rgba(255, 255, 255, 0.2);
+	}
+	75% {
+		background-color: rgba(255, 255, 255, 0.4);
+		box-shadow: 12px 0px 0px 0px rgba(255, 255, 255, 0.2), 24px 0px 0px 0px #ffffff;
+	}
+}
+
+@keyframes typing {
+	0% {
+		background-color: #ffffff;
+		box-shadow: 12px 0px 0px 0px rgba(255, 255, 255, 0.2), 24px 0px 0px 0px rgba(255, 255, 255, 0.2);
+	}
+	25% {
+		background-color: rgba(255, 255, 255, 0.4);
+		box-shadow: 12px 0px 0px 0px #ffffff, 24px 0px 0px 0px rgba(255, 255, 255, 0.2);
+	}
+	75% {
+		background-color: rgba(255, 255, 255, 0.4);
+		box-shadow: 12px 0px 0px 0px rgba(255, 255, 255, 0.2), 24px 0px 0px 0px #ffffff;
+	}
+}
+
+.loading-container {
+	z-index: 2000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #2dc3e8;
+}
+
+.loading-container.loading-inactive {
+	display: none;
+}
+
+.loading-container.loading-inactive .loader {
+	display: none;
+}
+
+.loading-container .loader {
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	-webkit-animation: typing 1s linear infinite alternate;
+	-moz-animation: Typing 1s linear infinite alternate;
+	animation: typing 1s linear infinite alternate;
+	margin: 50vh auto;
+	/* Not necessary- its only for layouting*/
+	position: relative;
+	left: -12px;
+}
+
+
+/*#endregion Loading*/

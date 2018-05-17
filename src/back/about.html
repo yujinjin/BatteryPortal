@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no,width=device-width,minimal-ui">
+    
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="724">
+    
+    <meta name="format-detection" content="telephone=no, email=no">
+    
+    <meta name="HandheldFriendly" content="true">
+    
+    <meta name="MobileOptimized" content="320">
+    
+    <meta name="screen-orientation" content="portrait">
+    
+    <meta name="x5-orientation" content="portrait">
+    
+    <meta name="full-screen" content="yes">
+    
+    <meta name="x5-fullscreen" content="true">
+    
+    <meta name="browsermode" content="application">
+    
+    <meta name="x5-page-mode" content="app">
+    
+    <meta name="msapplication-tap-highlight" content="no">
+    <title>724健康平台</title>
+
+	<body ontouchstart>
+		<div id="playercontainer"></div>
+		<script type="text/javascript" src="http://cyberplayer.bcelive.com/demo/new/player/cyberplayer.js"></script>
+		<script type="text/javascript">
+		    var player = cyberplayer("playercontainer").setup({
+		        width: 680, // 宽度，也可以支持百分比(不过父元素宽度要有)
+		        height: 448, // 高度，也可以支持百分比
+		        title: "基本功能", // 标题
+		        file: "http://gcqq450f71eywn6bv7u.exp.bcevod.com/mda-hbqagik5sfq1jsai/mda-hbqagik5sfq1jsai.mp4", // 播放地址
+		        image: "http://gcqq450f71eywn6bv7u.exp.bcevod.com/mda-hbqagik5sfq1jsai/mda-hbqagik5sfq1jsai.jpg", // 预览图
+		        autostart: false, // 是否自动播放
+		        stretching: "uniform", // 拉伸设置
+		        repeat: false, // 是否重复播放
+		        volume: 100, // 音量
+		        controls: true, // controlbar是否显示
+		        starttime: 0, // 视频开始播放时间点(单位s)，如果不设置，则可以从上次播放时间点续播
+		        logo: { // logo设置
+		            linktarget: "_blank",
+		            margin: 8,
+		            hide: false,
+		            position: "top-right", // 位置
+		            file: "./img/logo.png" // 图片地址
+		        },
+		        ak: "xxxxxxxxxxxxxxxx" // 公有云平台注册即可获得accessKey
+		    });
+		</script>
+	</body>
+</html>

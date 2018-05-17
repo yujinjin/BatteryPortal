@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="关键词" />
+	    <meta name="description" content="描述">
+		<title>联系我们</title>
+	</head>
+	<body>
+	    <!-- 资源加载防止白屏 -->
+	    <div class="loading-container">
+	        <div class="loader"></div>
+	    </div>
+	    <div class="container">
+	    	<%= require('../includes/header.tpl')  %>
+	    	<div class="map-banner"></div>
+	    	<div class="contact wrap">
+	            <div class="title">
+	                <img src="<%=require('../assets/imgs/contact-title.png')%>" alt="联系我们" width="200" height="53">
+	            </div>
+	            <div class="contact-row">
+	                <ul class="clear-both">
+	                    <li>
+	                    	<div class="address-box box">
+	                    		<i></i>
+	                            <h2>地址</h2>
+	                            <p class="text">XXXX 邮编：XXX</p>
+	                    	</div>
+	                    </li>
+	                    <li>
+	                        <div class="phone-box box">
+	                        	<i></i>
+	                            <h2>联系方式</h2>
+	                            <p class="text">
+	                               	 联系电话：XXX-xxx-xx
+	                                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;400-xxx-xxx
+	                            </p>
+	                        </div>
+	                    </li>
+	                    <li>
+	                        <div class="email-box box">
+	                        	<i></i>
+	                            <h2>千穆邮箱</h2>
+	                            <p class="text">
+	                                <a href="xxx">
+	                                    xxxx@xxx.com
+	                                </a>
+	                            </p>
+	                        </div>
+	                    </li>
+	                    <li>
+	                        <a href="tencent://message/?uin=xxxx&amp;Site=sc.chinaz.com&amp;Menu=yes" target="_blank">
+	                        	<div class="service-box box">
+	                            	<i></i>
+	                                <h2>联系QQ</h2>
+	                                <p class="text">客服：xxxx<br></p>
+	                            </div>
+	                        </a>
+	                    </li>
+	                </ul>
+	            </div>
+		    </div>
+		    <div class="arrive wrap">
+	            <div class="title">
+	                <img src="<%=require('../assets/imgs/arrive.png')%>" alt="如何到达">
+	            </div>
+	            <div class="arrive-row">
+                    <dl class="bus">
+                        <dt><i class="icon"></i>公交车</dt>
+                        <dd>
+                            <p class="text">
+                            	站台：中山北路曹杨路<br>线路：216路、224路、309路、44路、69路、829路、837路、846路、876路、94路、909路
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="taxi">
+                        <dt>
+                            <i class="icon"></i> 出租车/自驾
+                        </dt>
+                        <dd>
+                            <p class="text">
+                            	地点：杰地大厦<br>具体地址：xxxx
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="metro">
+                        <dt>
+                            <i class="icon"></i>地铁
+                        </dt>
+                        <dd>
+                            <p class="text">
+                            	站台：曹杨路<br>线路：曹杨路（地铁3号／4号／11号线<br>曹杨路站，6／7号出口往东100米到达）<br>咨询电话：400-xxx-xx<br>021-xxx-xxx
+                            </p>
+                        </dd>
+                    </dl>
+	            </div>
+	        </div>
+	    	<%= require('../includes/footer.tpl')  %>
+	    </div>
+	</body>
+</html>

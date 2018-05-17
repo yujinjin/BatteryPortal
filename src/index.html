@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="关键词" />
+	    <meta name="description" content="描述">
+		<title>首页</title>
+	</head>
+	<body>
+	    <!-- 资源加载防止白屏 -->
+	    <div class="loading-container">
+	        <div class="loader"></div>
+	    </div>
+	    <div class="container">
+	    	<%= require('./includes/header.tpl')  %>
+	    	<div class="section" data-index="0">
+	    		<div class="banner">
+	    			<div class="swiper-container">
+					    <div class="swiper-wrapper">
+					      	<div class="swiper-slide" style="background-image:url(<%=require('./assets/imgs/banner1.jpg')%>);">
+					      		<a title="新年快乐"></a>
+					      	</div>
+					      	<div class="swiper-slide" title="APP设计" style="background-image:url(<%=require('./assets/imgs/banner2.jpg')%>);">
+					      		<a title="APP设计" href="WebDesign/index.html" tppabs="http://www.ourslook.com/WebDesign/"></a>
+					      	</div>
+					      	<div class="swiper-slide" title="Ourslook" style="background-image:url(<%=require('./assets/imgs/banner3.jpg')%>);">
+					      		<a title="Ourslook" href="javascript:void(0)" tppabs="javascript:void(0)"></a>
+					      	</div>
+					      	<div class="swiper-slide" title="成功案例" style="background-image:url(<%=require('./assets/imgs/banner4.jpg')%>);">
+					      		<a title="成功案例" href="cases/index.html" tppabs="http://www.ourslook.com/cases/"></a>
+					      	</div>
+					    </div>
+					    <div class="swiper-pagination"></div>
+				  	</div>
+	    		</div>
+	    	</div>
+	    	<div class="section service" data-index="1">
+	    		<div class="wrap">
+	    			<div class="service-scope">
+	    				<a href="service/index.html" target="_blank">
+		                    <img src="<%=require('./assets/imgs/t_service.jpg')%>" width="262" height="78" alt="服务范围">
+		                </a>
+	    			</div>
+		            <div class="service-text">
+                		设计咨询／软件研发／应用推广／数据分析／技术运维
+            		</div>
+		            <div class="service-row">
+	                	<ul class="clear-both">
+		                    <li class="service-box">
+		                        <dl>
+		                            <dt class="pic">
+		                                <a href="#" target="_blank">
+		                                    <img src="<%=require('./assets/imgs/service_3.png')%>" alt="创意设计 ">
+		                                </a>
+		                            </dt>
+		                            <dt class="title">
+		                                <a href="#" target="_blank">创意设计</a>
+		                            </dt>
+		                            <dd class="describe"> 无创意，不设计，独具慧眼的设计风格，充分了解企业文化、行业特点，提升企业品牌形象，了解您的需求和想法，时刻掌握最新技术动向，为您完成的设计独具一格。</dd>
+		                        </dl>
+		                    </li>
+		                    <li class="service-box">
+		                        <dl>
+		                            <dt class="pic">
+		                                <img src="<%=require('./assets/imgs/service_2.png')%>" alt="定制研发">
+		                            </dt>
+		                            <dt class="title">
+		                                <a href="#" rel="noFollow" target="_blank"> 定制研发</a>
+		                            </dt>
+		                            <dd class="describe">先进的技术 专业高端定制－iOS开发/Android开发/Windows开发/HTML5开发，专业量身定制设计、定制功能、定制后台开拥有资深开发团队，追求质量同时保证速度追求完美。</dd>
+		                        </dl>
+		                    </li>
+		                    <li class="service-box">
+		                        <dl>
+		                            <dt class="pic">
+		                                <a href="#">
+		                                    <img src="<%=require('./assets/imgs/service_1.png')%>" alt="应用推广">
+		                                </a>
+		                            </dt>
+		                            <dt class="title">
+		                                <a href="#"> 应用推广</a>
+		                            </dt>
+		                            <dd class="describe">有效的下载通道，完善的关键字匹配，优质媒体营销渠道，以用户为中心，以APP为核心，为您的应用助推，提供通过跟踪营销效果而不断完善的推广方案。</dd>
+		                        </dl>
+		                    </li>
+		                    <li class="service-box">
+		                        <dl>
+		                            <dt class="pic">
+		                                <a href="#">
+		                                    <img src="<%=require('./assets/imgs/service_4.png')%>" alt="技术运维 ">
+		                                </a>
+		                            </dt>
+		                            <dt class="title">
+		                                <a href="#">技术运维</a>
+		                            </dt>
+		                            <dd class="describe">我们提供标准化，个性化的维护服务，为客户软件提供完善的维护保障，不断提升系统响应速度和稳 定性完善的测试流程，在上线之前、之后有规划的解决问题。</dd>
+		                        </dl>
+		                    </li>
+		                </ul>
+		            </div>
+	    		</div>
+	    		<div class="service-foot">完全个性化设计，专属定制研发应用软件，安全技术运维服务</div>
+	    	</div>
+	    	<div class="section cases" data-index="2">
+	    		<div class="wrap">
+	    			<div class="succeed">
+			            <div class="succeed-title">
+			                <a href="#">
+			                    <img src="<%=require('./assets/imgs/t_cases.jpg')%>" alt="成功案例" width="296" height="74">
+			                </a>
+			            </div>
+			            <div class="succeed-text">我们执着、敏锐、追求更好；通过自己的专业眼光，为客户提供最优的手机应用解决方案</div>
+			        </div>
+			        <ul class="cases-row clear-both">
+			            <!-- Thumbnail -->
+			            <li class="cases-box" style="display:block;opacity:1;">
+			                <a class="pic" href="#">
+			                    <img src="<%=require('./assets/imgs/baolizhiye.jpg')%>" class="cases-img" alt="保利置业">
+			                    <div class="mask"></div>
+			                </a>
+			                <div class="meta">
+			                    <h4>
+			                        <a href="#" target="_blank">保利置业</a>
+			                    </h4>
+			                </div>
+			            </li>
+			            <li class="cases-box" style="display:block;opacity:1;">
+			                <a class="pic" href="#" target="_blank">
+			                    <img src="<%=require('./assets/imgs/donghang.jpg')%>" class="cases-img" alt="东方公务航空">
+			                    <div class="mask"></div>
+			                </a>
+			                <div class="meta">
+			                    <h4>
+			                        <a href="#" target="_blank">东方公务航空</a>
+			                    </h4>
+			                </div>
+			            </li>
+			            <li class="cases-box" style="display:block;opacity:1;">
+			                <a class="pic" href="#" target="_blank">
+			                    <img src="<%=require('./assets/imgs/meike.jpg')%>" class="cases-img" alt="每刻兼职">
+			                    <div class="mask"></div>
+			                </a>
+			                <div class="meta">
+			                    <h4>
+			                        <a href="#" target="_blank"> 每刻兼职</a>
+			                    </h4>
+			                </div>
+			            </li>
+			            <li class="cases-box" style="display:block;opacity:1;">
+			                <a class="pic" href="#" target="_blank">
+			                    <img src="<%=require('./assets/imgs/zichanbao.jpg')%>" class="cases-img" alt="世联资产宝">
+			                    <div class="mask"></div>
+			                </a>
+			                <div class="meta">
+			                    <h4>
+			                        <a href="#" target="_blank">世联资产宝</a>
+			                    </h4>
+			                </div>
+			            </li>
+			        </ul>
+			        <div class="cases-more">
+	            		<a href="#" title="成功案例" class="btn">查看更多</a>
+	        		</div>
+	    		</div>
+	    	</div>
+	    	<div class="section solutions" data-index="3">
+	    		<div class="wrap">
+		            <div class="solutions-title">
+		                <a href="#" target="_blank">
+		                    <img src="<%=require('./assets/imgs/t_solutions.png')%>" alt="解决方案" width="311" height="82">
+		                </a>
+		            </div>
+		            <div class="solutions-text">专业的技术，丰富的成功经验，卓越的创作思维给您想要的一切效果！</div>
+		            <div class="solutions-panel">
+	                    <dl data-solutions-index="0">
+	                        <dt>
+	                            <a href="javascript:void(0)" tppabs="javascript:void(0)"></a>
+	                        </dt>
+	                        <dd class="title">
+	                            <a href="javascript:void(0)" tppabs="javascript:void(0)">手机应用解决方案</a>
+	                        </dd>
+	                        <dd class="spec">移动互联网的迅猛发展，我们专业资深设计师根据客户需求个性化定制设计，根据企业特点、手机独特的尺寸，设计出更适合手机浏览的页面布局。</dd>
+	                        <dd class="bg"></dd>
+	                    </dl>
+	                    <dl data-solutions-index="1">
+	                        <dt>
+	                            <a href="javascript:void(0)" tppabs="javascript:void(0)"></a>
+	                        </dt>
+	                        <dd class="title">
+	                            <a href="javascript:void(0)" tppabs="javascript:void(0)">酒店餐饮解决方案</a>
+	                        </dd>
+	                        <dd class="spec">酒店手机应用软件的便捷性、准确性和有效性，以及在管理服务上基于互联网，也注重酒店应用更新性。从客户出发，简化操作流程，实现网上预订。</dd>
+	                        <dd class="bg"></dd>
+	                    </dl>
+	                    <dl data-solutions-index="2">
+	                        <dt>
+	                            <a href="javascript:void(0)" tppabs="javascript:void(0)"></a>
+	                        </dt>
+	                        <dd class="title">
+	                            <a href="javascript:void(0)" tppabs="javascript:void(0)">航空物流类解决方案</a>
+	                        </dd>
+	                        <dd class="spec">线路、景点、旅游资讯、酒店、机票、租车、签证、户外扩展等页面设计的清晰，后台管理方便，用户体验良好，打造客户转化率高的门户应用软件。</dd>
+	                        <dd class="bg"></dd>
+	                    </dl>
+	                    <dl data-solutions-index="3">
+	                        <dt>
+	                            <a href="javascript:void(0)" tppabs="javascript:void(0)"></a>
+	                        </dt>
+	                        <dd class="title">
+	                            <a href="javascript:void(0)" tppabs="javascript:void(0)"> 购物商城类解决方案</a>
+	                        </dd>
+	                        <dd class="spec">智能手机的迅速发展，吃，穿，住，用，越来越热衷于移动商城完成购物支付，种类多样，选择方便，购买快速有效，开启电商的移动互联网时代。</dd>
+	                        <dd class="bg"></dd>
+	                    </dl>
+		            </div>
+		            <div class="btn-solutions-more">
+		                <a href="#" title="解决方案" class="btn">查看更多</a>
+		            </div>
+		        </div>
+	    	</div>
+	    	<div class="section partner" data-index="4">
+	    		<div class="wrap">
+	    			<div class="partner-title">
+		                <a href="javascript:void(0)">
+		                    <img src="<%=require('./assets/imgs/t_kehu.jpg')%>" alt="客户" width="372" height="73">
+		                </a>
+		            </div>
+		            <div class="partner-text">
+		                ourslook励志为顾客提供出最好的手机应用网站建设、管理、维护系统等，为客户提供最优的移动互联网整体解决方案。
+		            </div>
+		            <div class="partner-row clear-both">
+		            	<table>
+		            		<tbody>
+		            			<tr>
+			                        <td>
+			                            <div class="partner-box">
+			                                <div class="brand-logo">
+			                                    <img src="<%=require('./assets/imgs/ali2.png')%>" width="150" height="100" alt="阿里巴巴">
+			                                </div>
+			                                <div class="brand-logo-hover">
+			                                    <img src="<%=require('./assets/imgs/ali1.png')%>" width="150" height="100" alt="阿里巴巴">
+			                                </div>
+			                            </div>
+			                        </td>
+			                        <td>
+			                            <div class="partner-box">
+			                                <div class="brand-logo">
+			                                    <img src="<%=require('./assets/imgs/baoshijie2.png')%>" width="150" height="100" alt="保时捷">
+			                                </div>
+			                                <div class="brand-logo-hover">
+			                                    <img src="<%=require('./assets/imgs/baoshijie1.png')%>" width="150" height="100" alt="保时捷">
+			                                </div>
+			                            </div>
+			                        </td>
+			                        <td>
+			                            <div class="partner-box">
+			                                <div class="brand-logo">
+			                                    <img src="<%=require('./assets/imgs/volvo2.png')%>" width="150" height="100" alt="VOLVO">
+			                                </div>
+			                                <div class="brand-logo-hover">
+			                                    <img src="<%=require('./assets/imgs/volvo1.png')%>" width="150" height="100" alt="VOLVO">
+			                                </div>
+			                            </div>
+			                        </td>
+			                        <td>
+			                            <div class="partner-box">
+			                                <div class="brand-logo">
+			                                    <img src="<%=require('./assets/imgs/bomei2.png')%>" width="150" height="100" alt="泊美">
+			                                </div>
+			                                <div class="brand-logo-hover">
+			                                    <img src="<%=require('./assets/imgs/bomei1.png')%>" width="150" height="100" alt="泊美">
+			                                </div>
+			                            </div>
+			                        </td>
+			                        <!--<td>
+			                            <div class="partner-box">
+			                                <div class="brand-logo">
+			                                    <img src="<%=require('./assets/imgs/youzheng2.png')%>" width="150" height="100" alt="中国邮政">
+			                                </div>
+			                                <div class="brand-logo-hover">
+			                                    <img src="<%=require('./assets/imgs/youzheng1.png')%>" width="150" height="100" alt="中国邮政">
+			                                </div>
+			                            </div>
+			                        </td>-->
+			                    </tr>
+		            		</tbody>
+		            	</table>
+                	</div>
+	    		</div>
+	    	</div>
+	    	<div class="nav-right-pagination">
+			    <ul>
+			        <li>
+			            <a class="active" data-index="0"><span></span></a>
+			        </li>
+			        <li>
+			            <a data-index="1"><span></span></a>
+			        </li>
+			        <li>
+			            <a data-index="2"><span></span></a>
+			        </li>
+			        <li>
+			            <a data-index="3"><span></span></a>
+			        </li>
+			        <li>
+			            <a data-index="4"><span></span></a>
+			        </li>
+			    </ul>
+			</div>
+			<%= require('./includes/footer.tpl')  %>
+	    </div>
+	</body>
+</html>

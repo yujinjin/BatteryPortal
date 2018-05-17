@@ -1,0 +1,159 @@
+.footer {
+	margin-top: 40px;
+}
+
+.footer .footer-contents {
+	background: #2eafbb;
+    padding-top: 38px;
+    padding-bottom: 60px;
+}
+
+.footer .footer-contents .about-panel {
+	float: left;
+	margin-left: 4%;
+	margin-right: 2%;
+	width: 27.33%;
+}
+
+.footer .footer-contents .about-panel dt {
+	margin-bottom: 24px;
+}
+
+.footer .footer-contents .about-panel dt a {
+	font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.footer .footer-contents .about-panel dd {
+	color: #eeeeee;
+    line-height: 28px;
+    font-family: "宋体";
+}
+
+.footer .footer-contents .about-panel dd.btn-about-more {
+	text-align: right;
+    margin-right: 5%;
+}
+
+.footer .footer-contents .about-panel dd.btn-about-more .btn {
+	color: #fff;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    line-height: 38px;
+    padding: 0 24px;
+    margin-top: 12px;
+}
+
+.footer .footer-contents .about-panel dd.btn-about-more .btn:hover {
+	border-color: #fff;
+}
+
+.footer .footer-contents .recent-cases {
+	height: 210px;
+    overflow: hidden;
+    float: left;
+    margin-left: 4%;
+	margin-right: 2%;
+	width: 27.33%;
+}
+
+.footer .footer-contents .recent-cases h2 {
+	margin-bottom: 28px;
+}
+
+.footer .footer-contents .recent-cases h2 a {
+	font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.footer .footer-contents .recent-cases ul.cases-list li {
+	border-top: 1px solid #ccc;
+	height: 52px;
+	padding: 14px 0;
+}
+
+.footer .footer-contents .recent-cases ul.cases-list li:first-child {
+	border:0;
+	padding-top:3px;
+}
+
+.footer .footer-contents .recent-cases ul.cases-list li img {
+	float: left;
+	margin-right: 18px;
+}
+
+.footer .footer-contents .recent-cases ul.cases-list li h5 {
+	margin-top: -5px;
+	line-height: 28px;
+}
+
+.footer .footer-contents .recent-cases ul.cases-list li h5 a {
+	font-size: 14px;
+	color: #fff;
+	font-weight: normal;
+}
+
+.footer .footer-contents .recent-cases ul.cases-list li .text {
+	line-height: 22px;
+}
+
+.footer .footer-contents .recent-cases ul.cases-list li .text a {
+	color: #dddddd;
+	font-family: "宋体";
+}
+
+
+.footer .footer-contents .contact {
+	float: left;
+	margin-left: 4%;
+	margin-right: 2%;
+	width: 27.33%;
+}
+
+.footer .footer-contents .contact h2 {
+	margin-bottom: 28px;
+}
+
+.footer .footer-contents .contact h2 a {
+	font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.footer .footer-contents .contact ul li {
+	color: #ddd;
+    margin-bottom: 14px;
+}
+
+.footer .footer-contents .contact ul li i {
+	display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.footer .footer-contents .contact ul li a {
+	color: #ddd;
+}
+
+.footer .footer-contents .contact ul li i.qq {
+	background: url(../imgs/sprite.png) no-repeat -20px -20px;
+}
+
+.footer .footer-contents .contact ul li i.email {
+	background: url(../imgs/sprite.png) no-repeat -40px -20px;
+}
+
+.footer .footer-contents .contact ul li i.call {
+	background: url(../imgs/sprite.png) no-repeat -0px -0px;
+}
+
+.footer .copyright {
+	line-height: 28px;
+    color: #999;
+    text-align: center;
+    padding: 30px 0;
+}
