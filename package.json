@@ -2,7 +2,14 @@
   "name": "BatteryPortal",
   "version": "1.0.0",
   "description": "纯HTML静态页面门户网站",
-  "keywords": ["纯HTML静态页面", "门户网站", "webpack", "打包", "压缩", "混淆"],
+  "keywords": [
+    "纯HTML静态页面",
+    "门户网站",
+    "webpack",
+    "打包",
+    "压缩",
+    "混淆"
+  ],
   "homepage": "https://yujinjin.github.io",
   "license": "MIT",
   "repository": {
@@ -14,12 +21,12 @@
     "build": "set NODE_RUN=0&&node webpack.config"
   },
   "dependencies": {
-    "jquery": "^3.3.1",
+    "jquery": "^1.12.4",
     "juicer": "^0.6.15",
     "swiper": "^4.1.6"
   },
   "devDependencies": {
-  	"ejs-loader": "^0.3.1",
+    "ejs-loader": "^0.3.1",
     "autoprefixer": "^7.2.1",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.3",

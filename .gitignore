@@ -2,6 +2,7 @@ node_modules/
 build/
 npm-debug.log
 .project
+package-lock.json
 /.bat
 /pages
 /index.html
