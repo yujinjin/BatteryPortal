@@ -22,19 +22,19 @@
         	</div>
     		<nav class="nav">
                 <ul class="clear-both">
-                    <li class="on">
+                    <li class="on" data-name="home">
                         <a href="/">网站首页</a>
                     </li>
-                    <li data-file="product-list.html">
+                    <li data-name="product-list">
                         <a href="/pages/product-list.html">产品列表</a>
                     </li>
-                    <li data-file="service.html">
+                    <li data-home="after-sale">
                         <a href="/pages/after-sale.html">售后服务</a>
                     </li>
-                    <li data-file="about.html">
+                    <li data-name="about">
                         <a href="/pages/about.html">关于我们</a>
                     </li>
-                    <li data-file="contact.html">
+                    <li data-name="contact">
                         <a href="/pages/contact.html">联系我们</a>
                     </li>
                 </ul>

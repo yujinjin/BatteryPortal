@@ -70,10 +70,10 @@ $(function(){
         },
         initHeader(){
 			// 初始化菜单底部线条
-			let _url_file = utils.parseUrl(window.location.href).file;
-			if(_url_file) {
+			let pageName = $("input[name='pageName']").val();
+			if(pageName) {
 				$(".nav").find("li.on").removeClass("on");
-				$(".nav").find("li[data-file='" + _url_file + "']").addClass("on");
+				$(".nav").find("li[data-name='" + pageName + "']").addClass("on");
 			}
 			
 			if($(".nav").find("li.on").length > 0) {
