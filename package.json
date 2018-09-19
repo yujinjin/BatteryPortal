@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "set NODE_RUN=1&&node webpack.config",
-    "build": "set NODE_RUN=0&&node webpack.config"
+    "build": "set NODE_RUN=0&&webpack --config webpack.config"
   },
   "dependencies": {
     "jquery": "^1.12.4",

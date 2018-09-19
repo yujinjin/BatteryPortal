@@ -46,7 +46,7 @@ const getPages = entries => {
 const config = {
 	entry: entry,
 	output: {
-		path: NODE_RUN === "0" ? path.resolve(__dirname, './build') : "/",//"./build",//"./build",//path.resolve(__dirname, './build'), //path.resolve(__dirname, './build'), //
+		path: NODE_RUN === "0" ? path.resolve(__dirname, './build') : "/",//"./build",//"./build",//path.resolve(__dirname, './build')
 		//publicPath路径就是你发布之后的路径，比如你想发布到你站点的/util/vue/build 目录下, 那么设置publicPath: "/util/vue/build/",此字段配置如果不正确，发布后资源定位不对，比如：css里面的精灵图路径错误
 		publicPath: NODE_RUN === "0" ? "/build/" : "/",//"build/",//SERVER_PATH, //process.env.CUSTOM ? "/git/WebApp/n-build/" : "/n-build/",
 		filename: NODE_RUN === "0" ? "build.[chunkhash].[name].js" : "build.[name].js",
@@ -125,7 +125,6 @@ const config = {
         }]
 	},
 	plugins:[
-		new CleanWebpackPlugin(['build/*', 'pages/*'], {root: path.resolve(__dirname, './'), verbose: true, dry: false}),
 		new ExtractTextPlugin({
 			filename: NODE_RUN === "0" ? "style.[chunkhash].[name].css" : "style.[name].css",
 			allChunks: true
@@ -171,15 +170,7 @@ const config = {
 			}
 		}),
 		// 开启 Scope Hoisting
-		new webpack.optimize.ModuleConcatenationPlugin(),
-		function(){
-	        this.plugin("done", function(stats) {
-	            if (stats.compilation.errors && stats.compilation.errors.length){
-	                console.log(stats.compilation.errors);
-	                //process.exit(1);
-	            }
-	        });
-	    }
+		new webpack.optimize.ModuleConcatenationPlugin()
 	],
 	resolve: {
         extensions: ['.js', '.less', '.scss', '.css'], //后缀名自动补全
@@ -196,11 +187,12 @@ if (NODE_RUN === "0") {
 		hints: false
 	};
 	config.plugins = (config.plugins || []).concat([
-//		new webpack.DefinePlugin({
-//			'process.env': {
-//				NODE_ENV: '"production"'
-//			}
-//		}),
+		new CleanWebpackPlugin(['build/*', 'pages/*'], {root: path.resolve(__dirname, './'), verbose: true, dry: false}),
+		new webpack.DefinePlugin({
+			'process.env': {
+				NODE_ENV: '"production"'
+			}
+		}),
 		new webpack.optimize.UglifyJsPlugin({
 			compress: {
 		        warnings: false,
