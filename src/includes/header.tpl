@@ -2,10 +2,10 @@
 	<div class="wrap clear-both">
 		<div class="logo-panel">
             <a href="index.html" class="logo">
-                <img src="../assets/imgs/logo.png" alt="logo" width="100" height="49">
+                <img src="../assets/imgs/logo.png" alt="logo" width="176" height="49">
             </a>
             <div class="logo-text">
-            	<span style="font-size: 20px; margin-top: 30px; color: rgb(236, 231, 231); margin-right: 5px;">|</span>    服务成就价值
+            	<span style="font-size: 20px; margin-top: 30px; color: rgb(236, 231, 231); margin-right: 5px;">|</span>成就价值
         	</div>
     	</div>
     	<div class="menus">
